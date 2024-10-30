@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="C:\intern\image gallery\styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <img src="C:\intern\image gallery\mountain.jfif" alt="mountain" onclick="openLightbox();currentSlide(1)">
+        <img src="C:\intern\image gallery\forest.jfif" alt="forest" onclick="openLightbox();currentSlide(2)">
+        <img src="C:\intern\image gallery\underwaterfall.jpg" alt="underwaterfall" onclick="openLightbox();currentSlide(3)">
+        <img src="C:\intern\image gallery\waterfall.jfif" alt="waterfall" onclick="openLightbox();currentSlide(4)">
+        <img src="C:\intern\image gallery\lake.webp" alt="waterfall" onclick="openLightbox();currentSlide(4)">
+        <img src="C:\intern\image gallery\snow.jfif" alt="waterfall" onclick="openLightbox();currentSlide(4)">
+        <img src="C:\intern\image gallery\northern lights.jpg" alt="waterfall" onclick="openLightbox();currentSlide(4)">
+        <img src="C:\intern\image gallery\hills.jfif" alt="waterfall" onclick="openLightbox();currentSlide(4)">
+        <img src="C:\intern\image gallery\sunrise.jfif" alt="waterfall" onclick="openLightbox();currentSlide(4)">
+        <img src="C:\intern\image gallery\autumn.jfif" alt="waterfall" onclick="openLightbox();currentSlide(4)">
+        <img src="C:\intern\image gallery\tree.jfif" alt="waterfall" onclick="openLightbox();currentSlide(4)">
+        <img src="C:\intern\image gallery\sunset.jfif" alt="waterfall" onclick="openLightbox();currentSlide(4)">
+        <img src="C:\intern\image gallery\lake1.jfif" alt="waterfall" onclick="openLightbox();currentSlide(4)">
+        <img src="C:\intern\image gallery\falls.jfif" alt="waterfall" onclick="openLightbox();currentSlide(4)">
+        <img src="C:\intern\image gallery\hills.jfif" alt="waterfall" onclick="openLightbox();currentSlide(4)">
+        <img src="C:\intern\image gallery\image.png" alt="waterfall" onclick="openLightbox();currentSlide(4)">
+        <img src="C:\intern\image gallery\imt.png" alt="waterfall" onclick="openLightbox();currentSlide(4)">
+        <img src="C:\intern\image gallery\image (1).png" alt="waterfall" onclick="openLightbox();currentSlide(4)">
+
+
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightboxImage" src="" alt="">
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <script src="C:\intern\image gallery\script.js"></script>
+</body>
+</html>
